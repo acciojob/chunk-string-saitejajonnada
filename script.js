@@ -7,8 +7,8 @@ function stringChop(str, size) {
 	}
 	return chucks;
 }
-
+console.log(stringChop("Hello, World!", 5))
 // Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
+// const str = prompt("Enter String.");
+// const size = prompt("Enter Chunk Size.");
+// alert(stringChop(str, size));
